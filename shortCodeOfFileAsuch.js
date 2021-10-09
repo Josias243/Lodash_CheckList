@@ -26,18 +26,3 @@ const start = async () => {
     }
 }
 start();
-// let getContent = (pathstring) => {
-//     return new Promise((resolve, reject) => {
-//         readFile(pathstring,'utf8', (err, data) => {
-//             if (err) {
-//                reject(err)
-//            } else {
-//                 resolve(data);
-//            }
-//        })
-//     })
-// }
-
-
-
-// getContent('./content/file1.t').then((data)=>console.log(data));
